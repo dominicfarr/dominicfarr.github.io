@@ -51,7 +51,7 @@ My current work explores:
 
 I approach agent-assisted systems the same way I approach regulated platforms: explicit contracts, observable behavior, economic boundaries, and failure-aware design.
 
-AI increases the need for architecture. It does not remove it.
+AI increases the need for strong architecture and trust building processes.
 
 ---
 
@@ -61,4 +61,4 @@ This site functions as a working notebook.
 
 I publish architecture experiments, design documents, and reflections on how incentives, cost structures, and governance models evolve as automation increases.
 
-If you are building or modernizing a complex platform and want to discuss system design, governance, or delivery economics, you can reach me via LinkedIn.
+If you are building or modernizing a complex platform and want to discuss system design, governance, or delivery economics, you can reach me via LinkedIn. Or, book a time to talk https://calendly.com/domfarr/30min
