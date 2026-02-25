@@ -21,7 +21,6 @@ minima:
     - { platform: github,  user_url: "https://github.com/dominicfarr" }
 
 header_pages:
-  - index.md
   - about.md
 
 show_excerpts: true
