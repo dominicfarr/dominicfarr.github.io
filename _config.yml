@@ -1,2 +1,27 @@
-  title: Dominic Farr
-  theme: minima
+title: Dominic Farr
+description: Platform Architecture for Regulated and Agentic Systems
+theme: minima
+
+author: Dominic Farr
+
+url: "https://www.domfarr.com"
+baseurl: ""
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+minima:
+  skin: auto
+  social_links:
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/dominicfarr" }
+    - { platform: github,  user_url: "https://github.com/dominicfarr" }
+
+header_pages:
+  - index.md
+  - about.md
+
+show_excerpts: true
