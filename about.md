@@ -8,57 +8,57 @@ permalink: /about/
 
 I design and evolve digital platforms that operate under real-world constraint.
 
-My background spans regulated insurance systems serving millions of customers and generating over $200M in annual premium, as well as venture-backed SaaS products built from first principles. The constant across those environments has been the same: reliability, clarity of contracts, and economic discipline matter more than novelty.
+My background spans regulated insurance systems serving millions of customers and generating over $200M in annual premium, as well as venture-backed SaaS products built from first principles. Across both environments, the constant has been the same: reliability, explicit contracts, and economic discipline determine whether systems scale safely.
 
-I work at the intersection of architecture, incentives, and long-term system design.
+I focus on architecture as a long-term governance problem, not just a technical one.
 
 ---
 
 ## Regulated Platform Experience
 
-At Policy Expert, I owned the end-to-end architecture of a cloud-native insurance platform built around API-driven services and event-based workflows. The system supported:
+At Policy Expert, I owned the end-to-end architecture of a cloud-native insurance platform built around API-driven services and event-based workflows.
+
+The system supported:
 
 - Real-time customer journeys  
 - Partner integrations  
 - Strong security and compliance guarantees  
 - Continuous digital modernization without service disruption  
 
-Design decisions were evaluated against risk, operational load, and long-term maintainability. Scale was not theoretical. It was contractual.
+Architecture decisions were evaluated against operational risk, regulatory constraint, and long-term maintainability. Scale was contractual, not aspirational.
 
 ---
 
 ## Founder & Rapid System Design
 
-At Flowstate, I designed and delivered a modern cloud-based business process modelling platform using Svelte, TypeScript, Python, CI/CD, and NLP.  
+At Flowstate, I designed and delivered a modern cloud-based business process modelling platform using Svelte, TypeScript, Python, CI/CD, and NLP.
 
-The system was built quickly under constraint. Architecture decisions were validated through direct product usage rather than committee review. The experience reinforced a core belief: clarity of system boundaries and contracts determines whether speed compounds or collapses.
+The platform was built under tight constraints and validated through direct product use. The experience reinforced a practical lesson: speed compounds when system boundaries are clear. It degrades when governance is implicit.
 
 ---
 
-## Current Focus: Agentic Governance
+## Current Focus: Delivery Under Automation
 
-Software delivery is changing.
+Software delivery is shifting.
 
-When code generation accelerates, the bottleneck moves from writing to validation.  
-When agents execute workflows, cost shifts from headcount to computation.
+As code generation accelerates, the bottleneck moves from writing to validation.  
+As automation increases, governance must become more explicit.
 
-My current work explores:
+My current work involves small-scale architectural experiments exploring:
 
-- Trust-shifted delivery pipelines for agent-generated pull requests  
-- Risk scoring and policy gates inside CI/CD  
-- Cost governance models for token-based workflows  
-- Control layers that monitor and constrain autonomous output  
+- Trust-shifted CI/CD patterns for agent-assisted changes  
+- Risk scoring tied to change classification  
+- Token cost visibility inside delivery workflows  
+- Control layers for partially automated systems  
 
-I approach agent-assisted systems the same way I approach regulated platforms: explicit contracts, observable behavior, economic boundaries, and failure-aware design.
-
-AI increases the need for strong architecture and trust building processes.
+These are exploratory builds intended to test architectural patterns and trade-offs, not large-scale production deployments.
 
 ---
 
 ## Writing & Public Work
 
-This site functions as a working notebook.  
+This site functions as a working notebook.
 
-I publish architecture experiments, design documents, and reflections on how incentives, cost structures, and governance models evolve as automation increases.
+I publish architecture experiments, design notes, and reflections on how incentives, cost structures, and governance models evolve as automation increases.
 
-If you are building or modernizing a complex platform and want to discuss system design, governance, or delivery economics, you can reach me via LinkedIn. Or, book a time to talk https://calendly.com/domfarr/30min
+If you are building or modernizing a complex platform and want to discuss system design, delivery governance, or long-term platform evolution, you can reach me via LinkedIn.
