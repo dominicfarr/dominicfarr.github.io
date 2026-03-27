@@ -17,10 +17,18 @@ plugins:
 minima:
   skin: auto
   social_links:
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/dominicfarr" }
-    - { platform: github,  user_url: "https://github.com/dominicfarr" }
+    - {
+        platform: linkedin,
+        user_url: "https://www.linkedin.com/in/dominicfarr",
+      }
+    - { platform: github, user_url: "https://github.com/dominicfarr" }
 
 header_pages:
   - about.md
 
 show_excerpts: true
+
+collections:
+  glossary:
+    output: true
+    permalink: /glossary/:name/

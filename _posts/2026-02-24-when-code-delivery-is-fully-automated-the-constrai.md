@@ -2,6 +2,7 @@
 layout: post
 title: "The Constraint Has Moved. Most Teams Haven't."
 date: 2026-02-24
+tags: [agentic, delivery, process]
 ---
 
 Software delivery has spent thirty years managing human inconsistency. Two developers interpret the same requirement differently. A third forgets an edge case. A fourth ships something untested on Friday. So you built process around it. Standups, sprint reviews, merge gates, retrospectives.

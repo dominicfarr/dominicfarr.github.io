@@ -2,6 +2,7 @@
 layout: post
 title: "Delivery Processes Are Trust Mechanisms"
 date: 2026-02-25
+tags: [agentic, delivery, process]
 ---
 
 Every gate in your software pipeline exists because someone once asked: how do I know this is safe to ship?

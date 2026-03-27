@@ -2,15 +2,16 @@
 layout: post
 title: "Your Delivery System Was Designed for a Different Constraint"
 date: 2026-02-24
+tags: [agentic, delivery, testing]
 ---
 
 Most engineers don't review transpiled output or minified bundles. They review the source and trust the pipeline. At some point, that output became a black box. Validation moved up a level. Nobody held a ceremony about it.
 
 The same shift is happening with agentic code generation. And most delivery systems haven't adjusted.
 
-Dave Farley recently explained the Nyquist-Shannon Sampling Theorem in the context of software delivery[1]. To reliably detect change, you must sample at twice the frequency of the change itself. If AI increases code output volume, and humans remain the primary sampling layer, review doesn't scale. The human becomes the bottleneck by design.
+Dave Farley recently explained the Nyquist-Shannon Sampling Theorem in the context of software delivery[^1]. To reliably detect change, you must sample at twice the frequency of the change itself. If AI increases code output volume, and humans remain the primary sampling layer, review doesn't scale. The human becomes the bottleneck by design.
 
-The METR study[2] found developers using AI tools were 19% slower on average. The code changed. The delivery system didn't. That mismatch is where the cost accumulates.
+The METR study[^2] found developers using AI tools were 19% slower on average. The code changed. The delivery system didn't. That mismatch is where the cost accumulates.
 
 So where does validation move?
 
@@ -22,5 +23,5 @@ If your team's primary validation mechanism is still a pull request review, that
 
 Audit where your validation actually sits. That's where to start.
 
-[1] https://www.youtube.com/watch?v=XavrebMKH2A
-[2] https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/
+[^1]: <https://www.youtube.com/watch?v=XavrebMKH2A>
+[^2]: <https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/>
