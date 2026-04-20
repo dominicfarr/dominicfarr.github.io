@@ -5,7 +5,7 @@ date: 2026-03-27
 tags: [claude]
 ---
 
-When I work with local businesses, and we review their usage LLMs like Claude or ChatGPT I see a common pattern. A back and forth chat with the service.
+When I speak with local businesses and ask them how they use the new AI platforms, many still us it in chat with the service
 
 Most LLMs greets everyone with a friendly welcome and asked, "How can I help you today?" They start chating on a topic they need, back and forth until a solution or answer is good enough. It's great for quick tasks like recipes or explaining something.
 
