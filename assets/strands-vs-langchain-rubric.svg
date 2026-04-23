@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 290" font-family="ui-monospace, 'Courier New', monospace" font-size="13" fill="#111827">
+
+  <text x="20" y="28" font-weight="600" font-size="11" fill="#6b7280">CRITERION</text>
+  <text x="293" y="28" font-weight="600" font-size="11" fill="#1d4ed8" text-anchor="middle">STRANDS</text>
+  <text x="463" y="28" font-weight="600" font-size="11" fill="#b45309" text-anchor="middle">LANGCHAIN</text>
+
+  <line x1="10" y1="36" x2="570" y2="36" stroke="#e5e7eb" stroke-width="1.5"/>
+
+  <!-- Setup speed: Strands 5, LangChain 3 -->
+  <text x="20" y="62">Setup speed</text>
+  <circle cx="257" cy="57" r="7" fill="#1d4ed8"/>
+  <circle cx="275" cy="57" r="7" fill="#1d4ed8"/>
+  <circle cx="293" cy="57" r="7" fill="#1d4ed8"/>
+  <circle cx="311" cy="57" r="7" fill="#1d4ed8"/>
+  <circle cx="329" cy="57" r="7" fill="#1d4ed8"/>
+  <circle cx="427" cy="57" r="7" fill="#b45309"/>
+  <circle cx="445" cy="57" r="7" fill="#b45309"/>
+  <circle cx="463" cy="57" r="7" fill="#b45309"/>
+  <circle cx="481" cy="57" r="7" fill="#e5e7eb"/>
+  <circle cx="499" cy="57" r="7" fill="#e5e7eb"/>
+
+  <!-- Agent-first design: Strands 5, LangChain 3 -->
+  <text x="20" y="100">Agent-first design</text>
+  <circle cx="257" cy="95" r="7" fill="#1d4ed8"/>
+  <circle cx="275" cy="95" r="7" fill="#1d4ed8"/>
+  <circle cx="293" cy="95" r="7" fill="#1d4ed8"/>
+  <circle cx="311" cy="95" r="7" fill="#1d4ed8"/>
+  <circle cx="329" cy="95" r="7" fill="#1d4ed8"/>
+  <circle cx="427" cy="95" r="7" fill="#b45309"/>
+  <circle cx="445" cy="95" r="7" fill="#b45309"/>
+  <circle cx="463" cy="95" r="7" fill="#b45309"/>
+  <circle cx="481" cy="95" r="7" fill="#e5e7eb"/>
+  <circle cx="499" cy="95" r="7" fill="#e5e7eb"/>
+
+  <!-- AWS / Bedrock fit: Strands 5, LangChain 2 -->
+  <text x="20" y="138">AWS / Bedrock fit</text>
+  <circle cx="257" cy="133" r="7" fill="#1d4ed8"/>
+  <circle cx="275" cy="133" r="7" fill="#1d4ed8"/>
+  <circle cx="293" cy="133" r="7" fill="#1d4ed8"/>
+  <circle cx="311" cy="133" r="7" fill="#1d4ed8"/>
+  <circle cx="329" cy="133" r="7" fill="#1d4ed8"/>
+  <circle cx="427" cy="133" r="7" fill="#b45309"/>
+  <circle cx="445" cy="133" r="7" fill="#b45309"/>
+  <circle cx="463" cy="133" r="7" fill="#e5e7eb"/>
+  <circle cx="481" cy="133" r="7" fill="#e5e7eb"/>
+  <circle cx="499" cy="133" r="7" fill="#e5e7eb"/>
+
+  <!-- Model flexibility: Strands 2, LangChain 5 -->
+  <text x="20" y="176">Model flexibility</text>
+  <circle cx="257" cy="171" r="7" fill="#1d4ed8"/>
+  <circle cx="275" cy="171" r="7" fill="#1d4ed8"/>
+  <circle cx="293" cy="171" r="7" fill="#e5e7eb"/>
+  <circle cx="311" cy="171" r="7" fill="#e5e7eb"/>
+  <circle cx="329" cy="171" r="7" fill="#e5e7eb"/>
+  <circle cx="427" cy="171" r="7" fill="#b45309"/>
+  <circle cx="445" cy="171" r="7" fill="#b45309"/>
+  <circle cx="463" cy="171" r="7" fill="#b45309"/>
+  <circle cx="481" cy="171" r="7" fill="#b45309"/>
+  <circle cx="499" cy="171" r="7" fill="#b45309"/>
+
+  <!-- Ecosystem: Strands 2, LangChain 5 -->
+  <text x="20" y="214">Ecosystem</text>
+  <circle cx="257" cy="209" r="7" fill="#1d4ed8"/>
+  <circle cx="275" cy="209" r="7" fill="#1d4ed8"/>
+  <circle cx="293" cy="209" r="7" fill="#e5e7eb"/>
+  <circle cx="311" cy="209" r="7" fill="#e5e7eb"/>
+  <circle cx="329" cy="209" r="7" fill="#e5e7eb"/>
+  <circle cx="427" cy="209" r="7" fill="#b45309"/>
+  <circle cx="445" cy="209" r="7" fill="#b45309"/>
+  <circle cx="463" cy="209" r="7" fill="#b45309"/>
+  <circle cx="481" cy="209" r="7" fill="#b45309"/>
+  <circle cx="499" cy="209" r="7" fill="#b45309"/>
+
+  <!-- Production simplicity: Strands 4, LangChain 3 -->
+  <text x="20" y="252">Production simplicity</text>
+  <circle cx="257" cy="247" r="7" fill="#1d4ed8"/>
+  <circle cx="275" cy="247" r="7" fill="#1d4ed8"/>
+  <circle cx="293" cy="247" r="7" fill="#1d4ed8"/>
+  <circle cx="311" cy="247" r="7" fill="#1d4ed8"/>
+  <circle cx="329" cy="247" r="7" fill="#e5e7eb"/>
+  <circle cx="427" cy="247" r="7" fill="#b45309"/>
+  <circle cx="445" cy="247" r="7" fill="#b45309"/>
+  <circle cx="463" cy="247" r="7" fill="#b45309"/>
+  <circle cx="481" cy="247" r="7" fill="#e5e7eb"/>
+  <circle cx="499" cy="247" r="7" fill="#e5e7eb"/>
+
+  <line x1="10" y1="268" x2="570" y2="268" stroke="#e5e7eb" stroke-width="1"/>
+
+</svg>
