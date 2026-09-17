@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-# About page
-
 ## Hands-On Engineering Leadership
 
 I lead engineering teams and stay close to the work — architecture calls, code, and production issues included.
