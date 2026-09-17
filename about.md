@@ -39,23 +39,23 @@ At Flowstate, I was the sole technical lead, designing and delivering a cloud-ba
 
 ## Startup advisory (ongoing)
 
-[<img src="https://github.com/dominicfarr/dominicfarr/blob/main/fromearth.jpg" alt="From Earth" width="40"/>](https://fromearth.co/) 
+[<img src="/assets/fromearth.jpg" alt="From Earth" width="40"/>](https://fromearth.co/) 
 From Earth - platform that curates the most nutrient rich food 
 
-[<img src="https://github.com/dominicfarr/dominicfarr/blob/main/dnapal.jpg" alt="DNAPal" width="40"/>](https://dnapal.me) 
+[<img src="/assets/dnapal.jpg" alt="DNAPal" width="40"/>](https://dnapal.me) 
 DNAPal - Sophisicated health and wellness based on your genes
 
-[<img src="https://github.com/dominicfarr/dominicfarr/blob/main/raap1.png" alt="RaaP" width="40"/>](https://raap.builders) 
+[<img src="/assets/raap1.png" alt="RaaP" width="40"/>](https://raap.builders) 
 RaaP - Technology platform that increases the efficiency and profitability of modular prefabrication
 
 ## Other Startups
 
-[<img src="https://github.com/dominicfarr/dominicfarr/blob/main/conexiom.png" alt="Conexiom" width="40"/>](https://conexiom.com/)
+[<img src="/assets/conexiom.png" alt="Conexiom" width="40"/>](https://conexiom.com/)
 Conexiom - A platform for trade document automation
 
-[<img src="https://github.com/dominicfarr/dominicfarr/blob/main/collate.png" alt="Collect.org" width="40"/>](https://collate.org)
+[<img src="/assets/collate.png" alt="Collect.org" width="40"/>](https://collate.org)
 Collate.org - A digital media platform: Letters to the editor meets twitter
 
-[<img src="https://github.com/dominicfarr/dominicfarr/blob/main/pinfluencer.png" alt="Pinfluencer.io" width="40"/>](https://pinfluencer.io)
+[<img src="/assets/pinfluencer.png" alt="Pinfluencer.io" width="40"/>](https://pinfluencer.io)
 Pinfluencer.io - A sustainable influencer marketing platform
 
