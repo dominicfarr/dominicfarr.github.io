@@ -30,7 +30,7 @@ I'm really interested in how agentic tooling is changing day-to-day delivery.  W
 
 This site is a working notebook — delivery experiments, design notes, and reflections on where automation is actually taking software teams.
 
-I'm currently looking for a full-time role where I can lead a team and stay hands-on in the work. Reach me via [LinkedIn](https://www.linkedin.com/in/dominicfarr).
+Reach me via [LinkedIn](https://www.linkedin.com/in/dominicfarr).
 
 
 ## Founder & Hands-On Build
