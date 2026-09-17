@@ -4,61 +4,60 @@ title: About
 permalink: /about/
 ---
 
-## Platform Architecture Under Constraint
+# About page
 
-I design and evolve digital platforms that operate under real-world constraint.
+## Hands-On Engineering Leadership
 
-My background spans regulated insurance systems serving millions of customers and generating over $200M in annual premium, as well as venture-backed SaaS products built from first principles. Across both environments, the constant has been the same: reliability, explicit contracts, and economic discipline determine whether systems scale safely.
+I lead engineering teams and stay close to the work — architecture calls, code, and production issues included.
 
-I focus on architecture as a long-term governance problem, not just a technical one.
+My background spans regulated insurance systems serving millions of customers and generating over $200M in annual premium, as well as early-stage SaaS products built from scratch. Focusing on reliability, clear ownership, and a team that can move fast without breaking trust.
 
----
 
 ## Regulated Platform Experience
 
-At Policy Expert, I owned the end-to-end architecture of a cloud-native insurance platform built around API-driven services and event-based workflows.
+At Policy Expert, I led the team and architecture behind a cloud-native insurance platform built around API-driven services and event-based workflows, scaling the engineering team from 6 to 40 along the way.
 
 The system supported:
 
-- Real-time customer journeys  
-- Partner integrations  
-- Strong security and compliance guarantees  
-- Continuous digital modernization without service disruption  
+- Real-time customer journeys
+- Partner integrations
+- Strong security and compliance guarantees
+- Continuous modernization without service disruption
 
-Architecture decisions were evaluated against operational risk, regulatory constraint, and long-term maintainability. Scale was contractual, not aspirational.
+## Current Focus
 
----
+I'm really interested in how agentic tooling is changing day-to-day delivery.  Where it speeds teams up, where it needs a human still firmly in the loop, and how AI and the human interface interact at that boundary.  
 
-## Founder & Rapid System Design
+## Writing
 
-At Flowstate, I designed and delivered a modern cloud-based business process modelling platform using Svelte, TypeScript, Python, CI/CD, and NLP.
+This site is a working notebook — delivery experiments, design notes, and reflections on where automation is actually taking software teams.
 
-The platform was built under tight constraints and validated through direct product use. The experience reinforced a practical lesson: speed compounds when system boundaries are clear. It degrades when governance is implicit.
+I'm currently looking for a full-time role where I can lead a team and stay hands-on in the work. Reach me via [LinkedIn](https://www.linkedin.com/in/dominicfarr).
 
----
 
-## Current Focus: Delivery Under Automation
+## Founder & Hands-On Build
 
-Software delivery is shifting.
+At Flowstate, I was the sole technical lead, designing and delivering a cloud-based business process modelling platform using Svelte, TypeScript, Python, CI/CD, and NLP — from proof-of-concept through beta and early customer onboarding.
 
-As code generation accelerates, the bottleneck moves from writing to validation.  
-As automation increases, governance must become more explicit.
+## Startup advisory (ongoing)
 
-My current work involves small-scale architectural experiments exploring:
+[<img src="https://github.com/dominicfarr/dominicfarr/blob/main/fromearth.jpg" alt="From Earth" width="40"/>](https://fromearth.co/) 
+From Earth - platform that curates the most nutrient rich food 
 
-- Trust-shifted CI/CD patterns for agent-assisted changes  
-- Risk scoring tied to change classification  
-- Token cost visibility inside delivery workflows  
-- Control layers for partially automated systems  
+[<img src="https://github.com/dominicfarr/dominicfarr/blob/main/dnapal.jpg" alt="DNAPal" width="40"/>](https://dnapal.me) 
+DNAPal - Sophisicated health and wellness based on your genes
 
-These are exploratory builds intended to test architectural patterns and trade-offs, not large-scale production deployments.
+[<img src="https://github.com/dominicfarr/dominicfarr/blob/main/raap1.png" alt="RaaP" width="40"/>](https://raap.builders) 
+RaaP - Technology platform that increases the efficiency and profitability of modular prefabrication
 
----
+## Other Startups
 
-## Writing & Public Work
+[<img src="https://github.com/dominicfarr/dominicfarr/blob/main/conexiom.png" alt="Conexiom" width="40"/>](https://conexiom.com/)
+Conexiom - A platform for trade document automation
 
-This site functions as a working notebook.
+[<img src="https://github.com/dominicfarr/dominicfarr/blob/main/collate.png" alt="Collect.org" width="40"/>](https://collate.org)
+Collate.org - A digital media platform: Letters to the editor meets twitter
 
-I publish architecture experiments, design notes, and reflections on how incentives, cost structures, and governance models evolve as automation increases.
+[<img src="https://github.com/dominicfarr/dominicfarr/blob/main/pinfluencer.png" alt="Pinfluencer.io" width="40"/>](https://pinfluencer.io)
+Pinfluencer.io - A sustainable influencer marketing platform
 
-If you are building or modernizing a complex platform and want to discuss system design, delivery governance, or long-term platform evolution, you can reach me via LinkedIn.
