@@ -25,8 +25,7 @@ There are two side to an MCP implementations. The Host and the Server. The host 
 
 #### Reference Implementations
 
-
-After creating this project file, execute the following shell commands to initialise the project with the dependences
+Create a server and client using FastMCP
 
 ```bash
 mkdir my-mcp-server && cd my-mcp-server
