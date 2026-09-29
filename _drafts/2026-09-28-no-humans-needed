@@ -10,7 +10,7 @@ Employees are generally the most expensive part, while rent is a substantial but
 [Opinion/experience/pain point]
 AI to human interface can be unhealthy, the signal to noise ratio is off my an order of magnitude. As humans are excellent at avoiding effort quality will inevitably start to drop. 
 
-[the alternative]
+[notes on post substance]
 Instead of line-by-line review of all AI written code here are some other options:
 
 Verification in CI: Running a "verifier" sub-agent with a fresh context and the test suite against every PR is a popular method.
@@ -22,3 +22,10 @@ Extensive Guard Tests: Writing tests that assert against the final output (like 
 Human-AI Collaboration: Instead of full automation, some are using a model where a human guides an agent, reviews its high-level plan, and then watches it code, but doesn't read every single line.
 
 What still slips through? The biggest recurring problem is architectural drift. Agents will happily add a fourth way to do something when three already exist, and no test will catch it. One user's solution is to maintain a PATTERNS.md file in the repo to guide the agent. Another user noted that things only real-world users trigger (like user-agent filtering) can still be missed by even the best test suites.
+
+--
+
+For us the biggest shift was moving the verification into CI rather than trying to review diffs by hand. We run a subagent with a fresh context and the test suite against every PR, and a protected-paths hook that blocks changes to auth/billing/migrations unless a human explicitly approves. The combination catches more than I ever did reading line by line, and tbh the things I used to catch visually (wrong import, off-by-one in a loop) are exactly what automated checks are better at anyway.
+
+The part that still slips through is higher-level architectural drift. An agent will happily add a fourth way to do something when you already have three, and no test or hook catches that because each one works fine in isolation. I've started keeping a PATTERNS.md in the repo and pointing the agent at it, which helps but doesn't fully solve it.
+--
