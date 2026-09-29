@@ -1,0 +1,24 @@
+DRAFT
+[Hook]
+Can you really replace a dev team with agents? 
+
+[What would you call this part? Is the order correct]
+It's a perfect world for some. Which I understand that to some level of cost; humans are expensive, and can be down right hard to deal with. 
+So the idea that you can skip the hard get straight to the impact sounds like a goal worth pursuing. 
+Employees are generally the most expensive part, while rent is a substantial but usually secondary cost. Reducing that cost is very important. 
+
+[Opinion/experience/pain point]
+AI to human interface can be unhealthy, the signal to noise ratio is off my an order of magnitude. As humans are excellent at avoiding effort quality will inevitably start to drop. 
+
+[the alternative]
+Instead of line-by-line review of all AI written code here are some other options:
+
+Verification in CI: Running a "verifier" sub-agent with a fresh context and the test suite against every PR is a popular method.
+
+Protected Paths: Using hooks to block changes to sensitive areas (auth, billing, migrations) unless a human explicitly approves the change.
+
+Extensive Guard Tests: Writing tests that assert against the final output (like a rendered web page) instead of the code itself. The key is that the test's "expected result" must be an independent artifact, not read from the code it's testing.
+
+Human-AI Collaboration: Instead of full automation, some are using a model where a human guides an agent, reviews its high-level plan, and then watches it code, but doesn't read every single line.
+
+What still slips through? The biggest recurring problem is architectural drift. Agents will happily add a fourth way to do something when three already exist, and no test will catch it. One user's solution is to maintain a PATTERNS.md file in the repo to guide the agent. Another user noted that things only real-world users trigger (like user-agent filtering) can still be missed by even the best test suites.
