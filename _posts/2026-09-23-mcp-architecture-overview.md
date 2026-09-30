@@ -142,6 +142,33 @@ Why 3 POST logs for a single call?
 
 The full sequence can be found [mcp-sequence](https://www.domfarr.com/2026/04/23/mcp-sequence.html).
 
+#### Wait a second - This is just a api call. A whole lot of fuss for a simple http call. 
+
+Yes, but the power of MCP isn't in a single call. It's the protocol layer around it. 
+
+1. Discovery
+
+With MCP the client tools/list receives a structured metadata. An LLM can read this schema and _autonomously_ decide when and how to use the tool. 
+
+2. NxM vs N+M
+
+An MCP server for an API can work across all hosts. Zero additional integration work. 
+
+3. Resources
+
+Different from tools, they provide context to LLM host. Data schemas, files contents, docs, config. They can be cached to reduce token costs. 
+
+4. Prompts
+
+Reusable, parameterised workflow templates. Encodes the domain expertise once. 
+
+The fuss pays off with the runtime discovery, build once approach, across 3 distance control planes (model, app, user) and protocol semantics like sampling, elicitation, and notifications. 
+
+#### API vs MCP
+
+Standardisation and modularity: API can use a conforms to the design principles like REST or SOAP, but are bespoke in their implementation. A bookstore and a pet store API can use REST, comply with good HTTP usage, but would have different resources and actions to implement. MCP is a a protocol, and standardises around the 3 primitives, or capabilities: Tools; Resources; Prompts. These cover actions, data, and workflows. 
+MCP can also have interactions, in the form of elicitation. This server-initiated follow-up capability (the server pauses and asks the user for more input mid-operation) is different from an API's single request/response cycle.
+
 ### Overview
 
 <div style="text-align:center; margin: 2rem 0;">
