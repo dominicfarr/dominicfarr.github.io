@@ -169,6 +169,10 @@ The fuss pays off with the runtime discovery, build once approach, across 3 dist
 Standardisation and modularity: API can conforms to the design principles like REST or SOAP, but are bespoke in their implementation. A bookstore and a pet store API can use REST, comply with good HTTP usage, but would have different resources and actions to implement. MCP is a a protocol, and standardises around the 3 primitives, or capabilities: Tools; Resources; Prompts. These cover actions, data, and workflows. 
 MCP can also have interactions, in the form of elicitation. This server-initiated follow-up capability (the server pauses and asks the user for more input mid-operation) is different from an API's single request/response cycle.
 
+### Reference Implementations
+
+Basic local STDIO https://github.com/dominicfarr/mcp-working-notes-example
+
 ### Overview
 
 <div style="text-align:center; margin: 2rem 0;">
