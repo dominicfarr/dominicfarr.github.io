@@ -8,6 +8,8 @@ mermaid: true
 
 *Part 2 of the [MCP Security]({% post_url 2026-10-01-mcp-security %}) series.*
 
+*Update, 2026-10-19: roots are deprecated as of MCP 2026-07-28 (SEP-2577). New code should pass folders through server configuration instead; the reference repo now launches its server with an allowed folder. See its [Versions](https://github.com/dominicfarr/mcp-secuirty-working-notes-example#versions) notes.*
+
 ## The question
 
 The client has decided to send `write_file("notes/todo.txt")`. Can it also say *where* the server is allowed to write?

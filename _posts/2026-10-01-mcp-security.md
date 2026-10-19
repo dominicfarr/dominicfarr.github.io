@@ -7,6 +7,8 @@ tags: [agentic, tooling, security]
 
 [MCP](/glossary/mcp/) gives an AI application a standard way to call tools on other programs. Read a file, write a file, run a query. That is useful, and it is also the attack surface: every [tool call](/glossary/tool-call/) is something happening on someone's machine because a model, or a server, or a web page the model read, asked for it.
 
+*Update, 2026-10-19: since this series, MCP 2026-07-28 changed how servers ask clients for input (multi round-trip requests), and the reference repo moved to it. The posts and their code links describe the earlier, handshake-era version; see the repo's [Versions](https://github.com/dominicfarr/mcp-secuirty-working-notes-example#versions) notes.*
+
 The question I wanted answered is simple. When an MCP tool call is about to happen, who gets to stop it, and where is that code?
 
 <div style="text-align:center; margin: 2rem 0;">
