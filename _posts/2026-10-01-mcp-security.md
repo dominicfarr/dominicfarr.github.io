@@ -31,6 +31,12 @@ Every claim in these posts links to the code or the test that backs it, pinned t
 4. [One delete, every check]({% post_url 2026-10-05-mcp-security-delete-end-to-end %}). One `delete_file` traced through every layer.
 5. [Proving it: tests as the security spec]({% post_url 2026-10-06-mcp-security-proving-it %}). Tests named as guarantees, and how they run.
 
+Between the parts: [MCP stopped waiting]({% post_url 2026-10-19-mcp-security-mrtr %}). The move to MCP 2026-07-28.
+
+## Part 2: a model in the loop
+
+1. [A file that gives orders: prompt injection through MCP]({% post_url 2026-10-22-mcp-security-a-file-that-gives-orders %}). A planted line in a file steers a model into a write nobody asked for, and the two client-side rules that stop it.
+
 ## Run it
 
 ```bash
