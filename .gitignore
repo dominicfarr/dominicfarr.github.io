@@ -4,3 +4,5 @@ _site
 .jekyll-metadata
 vendor
 queue
+writing-list.md
+_drafts/*.txt
