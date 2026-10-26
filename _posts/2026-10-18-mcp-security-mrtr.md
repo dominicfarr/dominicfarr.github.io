@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "MCP stopped waiting: roots and elicitation on 2026-07-28"
-date: 2026-10-19
+date: 2026-10-18
 tags: [agentic, tooling, security]
 mermaid: true
 ---
 
-*A bridge between Part 1 of the [MCP Security]({% post_url 2026-10-01-mcp-security %}) series and what comes next.*
+_A bridge between Part 1 of the [MCP Security]({% post_url 2026-10-01-mcp-security %}) series and what comes next._
 
 ## The question
 

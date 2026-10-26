@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A file that gives orders: prompt injection through MCP"
-date: 2026-10-20
+date: 2026-10-19
 tags: [agentic, tooling, security]
 mermaid: true
 ---
