@@ -179,4 +179,4 @@ Run it yourself: `python3 client/host.py server/server.py`, copy `demo/*.txt` in
 
 ---
 
-[Series hub]({% post_url 2026-10-01-mcp-security %}) · [Allow, ask, deny: the client decides]({% post_url 2026-10-02-mcp-security-client-permissions %}) · [MCP stopped waiting]({% post_url 2026-10-19-mcp-security-mrtr %})
+[Series hub]({% post_url 2026-10-01-mcp-security %}) · [Allow, ask, deny: the client decides]({% post_url 2026-10-02-mcp-security-client-permissions %}) · [MCP stopped waiting]({% post_url 2026-10-18-mcp-security-mrtr %})

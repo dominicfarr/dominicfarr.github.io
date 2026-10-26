@@ -6,7 +6,7 @@ tags: [leadership, hiring]
 mermaid: true
 ---
 
-Part 4 of [How I Hire]({% post_url 2026-10-27-how-i-hire %}). Onboarding: from the decision to someone settled in the team.
+Part 4 of [How I Hire]({% post_url 2026-10-21-how-i-hire %}). Onboarding: from the decision to someone settled in the team.
 
 {% include how-i-hire-map.md phase=4 %}
 
@@ -34,13 +34,13 @@ Probation is three to six months, depending on the role. It can end early, and i
 
 There's a plan, written down and explicit, and we use it in our regular 1:1s. The team knows the plan too, and I meet with them to understand how the new person is getting on against it. If they're not hitting the mark, we adjust. I do what I can to make it work. Hiring is costly, and success is the goal for everyone.
 
-When someone is switching stacks, the ramp-up goes into the plan with milestones from day one. That's the lesson from the override in [Vet]({% post_url 2026-10-20-how-i-hire-vet %}).
+When someone is switching stacks, the ramp-up goes into the plan with milestones from day one. That's the lesson from the override in [Vet]({% post_url 2026-10-23-how-i-hire-vet %}).
 
 ## The story: two weeks on site
 
 At Policy Expert many of our hires were remote, offshore or outside London. Their first two weeks were on site in London, embedded in the core teams. Then they went home.
 
-It was only possible because the existing team had its time back. Once the pipeline moved to a trusted architect (the story in [Source]({% post_url 2026-10-19-how-i-hire-source %})), the team could spend its time on the platform and on onboarding people properly, instead of interviewing.
+It was only possible because the existing team had its time back. Once the pipeline moved to a trusted architect (the story in [Source]({% post_url 2026-10-22-how-i-hire-source %})), the team could spend its time on the platform and on onboarding people properly, instead of interviewing.
 
 ```mermaid
 flowchart LR
@@ -70,4 +70,4 @@ When I spoke with the teams afterwards, the remote developers who'd been on site
 
 Add a ramp-up row with milestones for anyone switching stacks.
 
-Next: [Reflect]({% post_url 2026-10-22-how-i-hire-reflect %}), what each hire teaches you about the next one.
+Next: [Reflect]({% post_url 2026-10-25-how-i-hire-reflect %}), what each hire teaches you about the next one.

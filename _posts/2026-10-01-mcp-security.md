@@ -7,7 +7,7 @@ tags: [agentic, tooling, security]
 
 [MCP](/glossary/mcp/) gives an AI application a standard way to call tools on other programs. Read a file, write a file, run a query. That is useful, and it is also the attack surface: every [tool call](/glossary/tool-call/) is something happening on someone's machine because a model, or a server, or a web page the model read, asked for it.
 
-*Update, 2026-10-19: since this series, MCP 2026-07-28 changed how servers ask clients for input (multi round-trip requests), and the reference repo moved to it. The posts and their code links describe the earlier, handshake-era version; [MCP stopped waiting]({% post_url 2026-10-19-mcp-security-mrtr %}) covers what changed and why the guarantees still hold.*
+*Update, 2026-10-19: since this series, MCP 2026-07-28 changed how servers ask clients for input (multi round-trip requests), and the reference repo moved to it. The posts and their code links describe the earlier, handshake-era version; [MCP stopped waiting]({% post_url 2026-10-18-mcp-security-mrtr %}) covers what changed and why the guarantees still hold.*
 
 The question I wanted answered is simple. When an MCP tool call is about to happen, who gets to stop it, and where is that code?
 
@@ -31,11 +31,11 @@ Every claim in these posts links to the code or the test that backs it, pinned t
 4. [One delete, every check]({% post_url 2026-10-05-mcp-security-delete-end-to-end %}). One `delete_file` traced through every layer.
 5. [Proving it: tests as the security spec]({% post_url 2026-10-06-mcp-security-proving-it %}). Tests named as guarantees, and how they run.
 
-Between the parts: [MCP stopped waiting]({% post_url 2026-10-19-mcp-security-mrtr %}). The move to MCP 2026-07-28.
+Between the parts: [MCP stopped waiting]({% post_url 2026-10-18-mcp-security-mrtr %}). The move to MCP 2026-07-28.
 
 ## Part 2: a model in the loop
 
-1. [A file that gives orders: prompt injection through MCP]({% post_url 2026-10-22-mcp-security-a-file-that-gives-orders %}). A planted line in a file steers a model into a write nobody asked for, and the two client-side rules that stop it.
+1. [A file that gives orders: prompt injection through MCP]({% post_url 2026-10-19-mcp-security-a-file-that-gives-orders %}). A planted line in a file steers a model into a write nobody asked for, and the two client-side rules that stop it.
 
 ## Run it
 

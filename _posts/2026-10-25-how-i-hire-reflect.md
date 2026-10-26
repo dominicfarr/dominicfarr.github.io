@@ -6,7 +6,7 @@ tags: [leadership, hiring]
 mermaid: true
 ---
 
-Part 5 of [How I Hire]({% post_url 2026-10-27-how-i-hire %}). Reflecting: what each hire teaches you about the next one.
+Part 5 of [How I Hire]({% post_url 2026-10-21-how-i-hire %}). Reflecting: what each hire teaches you about the next one.
 
 {% include how-i-hire-map.md phase=5 %}
 
@@ -53,4 +53,4 @@ The tracker is a [download](/assets/how-i-hire/hiring-tracker.csv): a CSV that o
 
 ## The loop
 
-That's the method: plan early, source with care, vet engineers rather than coders, onboard properly, and look back honestly. Then go round again. Start from the [hub]({% post_url 2026-10-27-how-i-hire %}) or from [Plan]({% post_url 2026-10-18-how-i-hire-plan %}).
+That's the method: plan early, source with care, vet engineers rather than coders, onboard properly, and look back honestly. Then go round again. Start from the [hub]({% post_url 2026-10-21-how-i-hire %}) or from [Plan]({% post_url 2026-10-21-how-i-hire-plan %}).

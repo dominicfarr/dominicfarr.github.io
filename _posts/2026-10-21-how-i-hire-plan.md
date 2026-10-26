@@ -6,7 +6,7 @@ tags: [leadership, hiring]
 mermaid: true
 ---
 
-Part 1 of [How I Hire]({% post_url 2026-10-27-how-i-hire %}). Planning: what to do before a single job ad goes out.
+Part 1 of [How I Hire]({% post_url 2026-10-21-how-i-hire %}). Planning: what to do before a single job ad goes out.
 
 {% include how-i-hire-map.md phase=1 %}
 
@@ -30,7 +30,7 @@ It costs more per day. It costs a lot less than a team losing 20–30% of its ti
 
 ## Write the rubric before you source
 
-Before a job ad goes out, I write the rubric: the competencies every candidate is scored against, and what "meets" looks like at this level. Everything after it is built from it, the job description and the CV screen included. [Vet]({% post_url 2026-10-20-how-i-hire-vet %}) has the full version.
+Before a job ad goes out, I write the rubric: the competencies every candidate is scored against, and what "meets" looks like at this level. Everything after it is built from it, the job description and the CV screen included. [Vet]({% post_url 2026-10-23-how-i-hire-vet %}) has the full version.
 
 ## Culture add, as a piano scale
 
@@ -69,4 +69,4 @@ Add the rows up and you're at three months on a good run and six on a slow one. 
 - [ ] Handover built in: tests, docs and notes the permanent hires can pick up.
 - [ ] Nothing that outlives them owned only by them.
 
-Next: [Source]({% post_url 2026-10-19-how-i-hire-source %}), finding and attracting the people the rubric describes.
+Next: [Source]({% post_url 2026-10-22-how-i-hire-source %}), finding and attracting the people the rubric describes.

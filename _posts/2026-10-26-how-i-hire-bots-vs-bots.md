@@ -5,7 +5,7 @@ date: 2026-10-26
 tags: [leadership, hiring, ai]
 ---
 
-An afterword to [How I Hire]({% post_url 2026-10-27-how-i-hire %}).
+An afterword to [How I Hire]({% post_url 2026-10-21-how-i-hire %}).
 
 Something has gone wrong in hiring, and AI is speeding it up.
 
@@ -45,7 +45,7 @@ There are humans on the other side of your machine. Someone spent an evening on 
 
 - **Reply when an application arrives.** Say what happens next and roughly when.
 - **Reply when someone isn't selected.** Silence is a decision too, and everyone reads it the same way.
-- **Give meaningful feedback, if your company allows it.** Centred on the gap, not the person, as in [Onboard]({% post_url 2026-10-21-how-i-hire-onboard %}). A sentence or two that helps them next time is worth more than a polite template.
+- **Give meaningful feedback, if your company allows it.** Centred on the gap, not the person, as in [Onboard]({% post_url 2026-10-24-how-i-hire-onboard %}). A sentence or two that helps them next time is worth more than a polite template.
 
 ## Read your values page
 
@@ -55,6 +55,6 @@ Candidates read both. They can hold you to those values, and they talk to each o
 
 ## Where AI does belong
 
-I'm not against AI in hiring. On my side of the table it can summarise interview notes, with the candidate's consent. It never scores anyone and never rejects anyone. On the candidate's side, I'd rather they used it the way they'd use an IDE, and the face-to-face extension session in [Vet]({% post_url 2026-10-20-how-i-hire-vet %}) shows me whether they understand what it wrote.
+I'm not against AI in hiring. On my side of the table it can summarise interview notes, with the candidate's consent. It never scores anyone and never rejects anyone. On the candidate's side, I'd rather they used it the way they'd use an IDE, and the face-to-face extension session in [Vet]({% post_url 2026-10-23-how-i-hire-vet %}) shows me whether they understand what it wrote.
 
 Hiring is the most human decision a team makes. Automate the admin. Keep the judgment.

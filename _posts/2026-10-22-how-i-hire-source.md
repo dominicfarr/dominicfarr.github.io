@@ -6,7 +6,7 @@ tags: [leadership, hiring]
 mermaid: true
 ---
 
-Part 2 of [How I Hire]({% post_url 2026-10-27-how-i-hire %}). Sourcing: finding the right people and getting them to want the job.
+Part 2 of [How I Hire]({% post_url 2026-10-21-how-i-hire %}). Sourcing: finding the right people and getting them to want the job.
 
 {% include how-i-hire-map.md phase=2 %}
 
@@ -56,7 +56,7 @@ The first call, phone or video, is mostly me selling. The company, the work, the
 
 ## The story: handing over the pipeline
 
-Policy Expert's first hires came through recruiters and job boards, at around 30% of a salary each, and the team ran every stage itself. That's the 20–30% of our time from [Plan]({% post_url 2026-10-18-how-i-hire-plan %}).
+Policy Expert's first hires came through recruiters and job boards, at around 30% of a salary each, and the team ran every stage itself. That's the 20–30% of our time from [Plan]({% post_url 2026-10-21-how-i-hire-plan %}).
 
 The later batches were more than 25 hires. Doing it that way at that size wasn't going to work. So I brought in an old friend, a senior architect I knew and trusted, and taught them what we needed and how we hired. They ran the pipeline: sourcing, the phone call, the take-home and the refactoring exercise. The panel came in at the end, as a single event. Over the same years, much of our hiring moved offshore and outside London.
 
@@ -69,7 +69,7 @@ flowchart LR
 
 _Blue: run by the architect. The panel joined for the final stage._
 
-It worked because of trust. We had shared history, so I knew how they judged people. And the person judging the craft was an engineer, not a recruiter matching keywords. It also gave the team its time back, and they spent it on the platform and on onboarding properly. That's the story in [Onboard]({% post_url 2026-10-21-how-i-hire-onboard %}).
+It worked because of trust. We had shared history, so I knew how they judged people. And the person judging the craft was an engineer, not a recruiter matching keywords. It also gave the team its time back, and they spent it on the platform and on onboarding properly. That's the story in [Onboard]({% post_url 2026-10-24-how-i-hire-onboard %}).
 
 ## The story: when there's no money to sell
 
@@ -81,6 +81,6 @@ The job description checklist still held. It just leaned harder on impact and on
 
 **Call it culture add.** Back then our final stage was called "team fit". The name matters, because a stage called fit gets used to find more of the same. Today that stage is about culture add, and the panel goes in knowing which notes the team is missing.
 
-**Make the trust transferable.** The pipeline handover worked because I trusted the architect, and that trust was personal. It wouldn't have transferred to someone else. Today I'd back it with tracking: pass rates at each stage, where hires came from and how they performed afterwards, so the next person running the process can see it working instead of taking my word for it. [Reflect]({% post_url 2026-10-22-how-i-hire-reflect %}) covers the tracking.
+**Make the trust transferable.** The pipeline handover worked because I trusted the architect, and that trust was personal. It wouldn't have transferred to someone else. Today I'd back it with tracking: pass rates at each stage, where hires came from and how they performed afterwards, so the next person running the process can see it working instead of taking my word for it. [Reflect]({% post_url 2026-10-25-how-i-hire-reflect %}) covers the tracking.
 
-Next: [Vet]({% post_url 2026-10-20-how-i-hire-vet %}), hiring engineers, not coders.
+Next: [Vet]({% post_url 2026-10-23-how-i-hire-vet %}), hiring engineers, not coders.

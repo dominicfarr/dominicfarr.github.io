@@ -6,7 +6,7 @@ tags: [leadership, hiring]
 mermaid: true
 ---
 
-Part 3 of [How I Hire]({% post_url 2026-10-27-how-i-hire %}). Vetting: hire engineers, not coders.
+Part 3 of [How I Hire]({% post_url 2026-10-21-how-i-hire %}). Vetting: hire engineers, not coders.
 
 {% include how-i-hire-map.md phase=3 %}
 
@@ -84,7 +84,7 @@ The unanimous vote has a story behind it.
 
 Early on, while we were still building the process, I overrode the panel. The candidate was switching from PHP to Java, and I believed in them. They had the principles. But they didn't ramp up in time, even after we extended their probation.
 
-That's why the vote is unanimous now. Nobody is outvoted, so nobody gets to say "I told you so" later, and the whole panel owns the hire. The lesson wasn't "don't hire people switching stacks". It was: decide together, and when someone is switching stacks, write the ramp-up into the probation plan with milestones from day one. [Onboard]({% post_url 2026-10-21-how-i-hire-onboard %}) has the plan.
+That's why the vote is unanimous now. Nobody is outvoted, so nobody gets to say "I told you so" later, and the whole panel owns the hire. The lesson wasn't "don't hire people switching stacks". It was: decide together, and when someone is switching stacks, write the ramp-up into the probation plan with milestones from day one. [Onboard]({% post_url 2026-10-24-how-i-hire-onboard %}) has the plan.
 
 ## References
 
@@ -97,4 +97,4 @@ References come after the panel decides and before the offer. They confirm; they
 - Ramp-up milestones written in for anyone switching stacks.
 - An AI policy stated in the brief.
 
-Next: [Onboard]({% post_url 2026-10-21-how-i-hire-onboard %}), from yes to settled in.
+Next: [Onboard]({% post_url 2026-10-24-how-i-hire-onboard %}), from yes to settled in.
