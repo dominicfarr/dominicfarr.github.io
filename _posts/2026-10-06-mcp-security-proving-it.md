@@ -6,7 +6,7 @@ tags: [agentic, tooling, security]
 mermaid: true
 ---
 
-*Part 5 of the [MCP Security]({% post_url 2026-10-01-mcp-security %}) series.*
+*Part 1.5 of the [MCP Security]({% post_url 2026-10-01-mcp-security %}) series.*
 
 ## The question
 

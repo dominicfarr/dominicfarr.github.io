@@ -19,23 +19,23 @@ The question I wanted answered is simple. When an MCP tool call is about to happ
 
 I built a small [reference repo](https://github.com/dominicfarr/mcp-secuirty-working-notes-example) to find out. One [MCP client](/glossary/mcp-client/), one [MCP server](/glossary/mcp-server/), four tools (three of them on files), connected over the [stdio transport](/glossary/stdio-transport/). A Gradio app shows each request, the client's decision, the server's questions and both [audit logs](/glossary/audit-log/).
 
-There is no LLM in it yet. That is deliberate. The controls in this series are deterministic: they hold whoever makes the request, a person clicking a button or a model that has been [prompt-injected](/glossary/prompt-injection/). If a control only works when the model behaves, it isn't a control. Putting a model in the loop is the next part of the repo, and its own series.
+There is no LLM in it yet. That is deliberate. The controls in this series are deterministic: they hold whoever makes the request, a person clicking a button or a model that has been [prompt-injected](/glossary/prompt-injection/). If a control only works when the model behaves, it isn't a control. Putting a model in the loop comes in Part 2.
 
 Every claim in these posts links to the code or the test that backs it, pinned to one commit so the line numbers stay right.
 
-## The series
+## Part 1: no model in the loop
 
-1. [Allow, ask, deny: the client decides]({% post_url 2026-10-02-mcp-security-client-permissions %}). Per-tool policy, and an approval that can't be redirected.
-2. [Roots are a request, not a wall]({% post_url 2026-10-03-mcp-security-roots %}). What the client can declare, and why only the server can enforce it.
-3. [Ask the human, not the caller]({% post_url 2026-10-04-mcp-security-elicitation %}). Elicitation: the server asking the user mid-call.
-4. [One delete, every check]({% post_url 2026-10-05-mcp-security-delete-end-to-end %}). One `delete_file` traced through every layer.
-5. [Proving it: tests as the security spec]({% post_url 2026-10-06-mcp-security-proving-it %}). Tests named as guarantees, and how they run.
+- **1.1** [Allow, ask, deny: the client decides]({% post_url 2026-10-02-mcp-security-client-permissions %}). Per-tool policy, and an approval that can't be redirected.
+- **1.2** [Roots are a request, not a wall]({% post_url 2026-10-03-mcp-security-roots %}). What the client can declare, and why only the server can enforce it.
+- **1.3** [Ask the human, not the caller]({% post_url 2026-10-04-mcp-security-elicitation %}). Elicitation: the server asking the user mid-call.
+- **1.4** [One delete, every check]({% post_url 2026-10-05-mcp-security-delete-end-to-end %}). One `delete_file` traced through every layer.
+- **1.5** [Proving it: tests as the security spec]({% post_url 2026-10-06-mcp-security-proving-it %}). Tests named as guarantees, and how they run.
 
 Between the parts: [MCP stopped waiting]({% post_url 2026-10-18-mcp-security-mrtr %}). The move to MCP 2026-07-28.
 
 ## Part 2: a model in the loop
 
-1. [A file that gives orders: prompt injection through MCP]({% post_url 2026-10-19-mcp-security-a-file-that-gives-orders %}). A planted line in a file steers a model into a write nobody asked for, and the two client-side rules that stop it.
+- **2.1** [A file that gives orders: prompt injection through MCP]({% post_url 2026-10-19-mcp-security-a-file-that-gives-orders %}). A planted line in a file steers a model into a write nobody asked for, and the two client-side rules that stop it.
 
 ## Run it
 

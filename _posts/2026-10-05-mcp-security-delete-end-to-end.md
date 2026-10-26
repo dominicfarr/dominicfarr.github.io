@@ -6,7 +6,7 @@ tags: [agentic, tooling, security]
 mermaid: true
 ---
 
-*Part 4 of the [MCP Security]({% post_url 2026-10-01-mcp-security %}) series.*
+*Part 1.4 of the [MCP Security]({% post_url 2026-10-01-mcp-security %}) series.*
 
 ## The question
 
@@ -103,7 +103,7 @@ Each side writes its own [audit log](/glossary/audit-log/) in the same JSON-line
 
 ## Gotchas
 
-**The wait is the attack window.** The user might take a minute to answer. In that minute, someone can replace `notes.txt` with a different file, or swap a folder for a symlink. So after the answer, the server resolves the path again (roots included) and compares the file's identity with the one it described. Different file, no delete. This is the [TOCTOU](/glossary/toctou/) gap from Part 2, only longer.
+**The wait is the attack window.** The user might take a minute to answer. In that minute, someone can replace `notes.txt` with a different file, or swap a folder for a symlink. So after the answer, the server resolves the path again (roots included) and compares the file's identity with the one it described. Different file, no delete. This is the [TOCTOU](/glossary/toctou/) gap from Part 1.2, only longer.
 
 **Order matters.** Path problems are reported before the client is asked for roots, and a missing file is reported before the user is asked anything. Nobody should confirm a delete that was always going to fail. The user's reason is attached to the audit record before the second check, so if the call is refused after confirmation, the server's log still records the user's answer and reason.
 

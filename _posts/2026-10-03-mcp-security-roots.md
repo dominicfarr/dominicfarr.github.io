@@ -6,7 +6,7 @@ tags: [agentic, tooling, security]
 mermaid: true
 ---
 
-*Part 2 of the [MCP Security]({% post_url 2026-10-01-mcp-security %}) series.*
+*Part 1.2 of the [MCP Security]({% post_url 2026-10-01-mcp-security %}) series.*
 
 *Update, 2026-10-19: roots are deprecated as of MCP 2026-07-28 (SEP-2577). New code should pass folders through server configuration instead; the reference repo now launches its server with an allowed folder. [MCP stopped waiting]({% post_url 2026-10-18-mcp-security-mrtr %}) covers the change.*
 
@@ -18,7 +18,7 @@ It can ask. MCP [roots](/glossary/roots/) let the client declare the folders a s
 
 ## The threat
 
-A local server started over the [stdio transport](/glossary/stdio-transport/) runs on your machine with your permissions. Nothing stops `read_file("../../.ssh/id_rsa")` except the server's own code. If a [prompt-injected](/glossary/prompt-injection/) model asks for that path, the client may have allowed `read_file` in general. The policy from [Part 1]({% post_url 2026-10-02-mcp-security-client-permissions %}) says which tool, not which file.
+A local server started over the [stdio transport](/glossary/stdio-transport/) runs on your machine with your permissions. Nothing stops `read_file("../../.ssh/id_rsa")` except the server's own code. If a [prompt-injected](/glossary/prompt-injection/) model asks for that path, the client may have allowed `read_file` in general. The policy from [Part 1.1]({% post_url 2026-10-02-mcp-security-client-permissions %}) says which tool, not which file.
 
 ## What the spec says
 
@@ -105,7 +105,7 @@ async def resolve_in_roots(filepath: str, ctx: Context) -> Path:
 
 **Wide roots grant nothing extra.** Declare `/` and the server gets exactly its workspace. A root somewhere else entirely gives it nothing.
 
-**Check after every await.** The server asks the client for roots mid-call, and the client controls how long that takes. In that gap a folder can be swapped for a symlink to somewhere outside. The path is resolved before the question and again after it, and the second result is the one used. That's a [TOCTOU](/glossary/toctou/) window shrunk from however long the client takes to a few microseconds of synchronous code. Shrunk, not closed: [Part 4]({% post_url 2026-10-05-mcp-security-delete-end-to-end %}) comes back to what closing it would take.
+**Check after every await.** The server asks the client for roots mid-call, and the client controls how long that takes. In that gap a folder can be swapped for a symlink to somewhere outside. The path is resolved before the question and again after it, and the second result is the one used. That's a [TOCTOU](/glossary/toctou/) window shrunk from however long the client takes to a few microseconds of synchronous code. Shrunk, not closed: [Part 1.4]({% post_url 2026-10-05-mcp-security-delete-end-to-end %}) comes back to what closing it would take.
 
 **Missing and empty are different.** A client that never declared the roots capability gets the workspace limit alone, as the spec asks servers to check the capability first. A client that declares the capability and then sends an empty list has declared nothing, so every path is refused.
 

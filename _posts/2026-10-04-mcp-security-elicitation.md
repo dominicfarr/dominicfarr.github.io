@@ -6,7 +6,7 @@ tags: [agentic, tooling, security]
 mermaid: true
 ---
 
-*Part 3 of the [MCP Security]({% post_url 2026-10-01-mcp-security %}) series.*
+*Part 1.3 of the [MCP Security]({% post_url 2026-10-01-mcp-security %}) series.*
 
 ## The question
 
@@ -102,7 +102,7 @@ if action == "accept":
 
 ## Gotchas
 
-**You want both layers of consent.** The client's policy from [Part 1]({% post_url 2026-10-02-mcp-security-client-permissions %}) decides whether `delete_file` is sent at all. The server's question confirms details only the server knows: "Confirm deletion of notes.txt (2.3 KB, modified 2026-10-05 14:30)". They answer different questions, so you want both.
+**You want both layers of consent.** The client's policy from [Part 1.1]({% post_url 2026-10-02-mcp-security-client-permissions %}) decides whether `delete_file` is sent at all. The server's question confirms details only the server knows: "Confirm deletion of notes.txt (2.3 KB, modified 2026-10-05 14:30)". They answer different questions, so you want both.
 
 **Validate on both sides.** The client checks so the user gets a useful error and nothing malformed is sent. The server checks again because it can't trust the client. And some rules don't fit in a schema at all: "type the file path" must equal *this* path, which only the server can check.
 

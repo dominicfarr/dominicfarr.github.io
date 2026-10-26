@@ -6,7 +6,7 @@ tags: [agentic, tooling, security]
 mermaid: true
 ---
 
-_Part 2 of the [MCP Security]({% post_url 2026-10-01-mcp-security %}) series: a model in the loop._
+_Part 2.1 of the [MCP Security]({% post_url 2026-10-01-mcp-security %}) series: a model in the loop._
 
 ## The question
 
