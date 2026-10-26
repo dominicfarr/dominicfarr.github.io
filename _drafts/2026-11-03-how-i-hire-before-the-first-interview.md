@@ -1,10 +1,4 @@
----
-layout: post
-title: "How I Hire, Part 1: Before the first interview"
-date: 2026-11-03
-tags: [leadership, hiring]
-mermaid: true
----
+## [draft]
 
 Whenever I interview for an leadership role and the subject of hiring comes up, or start hiring, someone asks me how I hire. I've answered that out loud many times, usually with a rough sketch. This series writes it down properly: the whole method, from planning a hire to checking a year later whether it worked.
 
