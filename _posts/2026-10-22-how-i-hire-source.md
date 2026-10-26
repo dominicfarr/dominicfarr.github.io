@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How I Hire, 2: Source"
-date: 2026-10-19
+date: 2026-10-22
 tags: [leadership, hiring]
 mermaid: true
 ---
@@ -42,11 +42,11 @@ It's small enough that nobody is put off, and it shows whether someone can expla
 
 I score each CV, and the answer to that question, against three criteria taken from the rubric:
 
-| Criterion | From the rubric | What I look for |
-| --- | --- | --- |
-| Evidence of judgment | Technical judgment | They say why, not just what: a choice they made, and what it achieved |
-| Clear communication | Communication & collaboration | A stranger can follow the CV and the answer without digging for the point |
-| Curiosity | Curiosity & growth | Something learned outside their immediate role, and used |
+| Criterion            | From the rubric               | What I look for                                                           |
+| -------------------- | ----------------------------- | ------------------------------------------------------------------------- |
+| Evidence of judgment | Technical judgment            | They say why, not just what: a choice they made, and what it achieved     |
+| Clear communication  | Communication & collaboration | A stranger can follow the CV and the answer without digging for the point |
+| Curiosity            | Curiosity & growth            | Something learned outside their immediate role, and used                  |
 
 A CV that shows all three goes forward. Keywords don't appear in the table on purpose.
 

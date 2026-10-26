@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How I Hire, 4: Onboard"
-date: 2026-10-21
+date: 2026-10-24
 tags: [leadership, hiring]
 mermaid: true
 ---
@@ -62,11 +62,11 @@ When I spoke with the teams afterwards, the remote developers who'd been on site
 
 **Probation plan**
 
-| | Month 1 | Months 2–3 | Months 4–6 (if used) |
-| --- | --- | --- | --- |
-| Goal | Shipped something; knows the system | Owns small features end to end | Owns medium-sized work with real impact |
-| Evidence | Week-one task, first PRs | Features shipped, code review | Delivery, team feedback |
-| Check-in | Weekly 1:1, against this plan | Weekly 1:1, team check | Decision: confirm, extend or end |
+|          | Month 1                             | Months 2–3                     | Months 4–6 (if used)                    |
+| -------- | ----------------------------------- | ------------------------------ | --------------------------------------- |
+| Goal     | Shipped something; knows the system | Owns small features end to end | Owns medium-sized work with real impact |
+| Evidence | Week-one task, first PRs            | Features shipped, code review  | Delivery, team feedback                 |
+| Check-in | Weekly 1:1, against this plan       | Weekly 1:1, team check         | Decision: confirm, extend or end        |
 
 Add a ramp-up row with milestones for anyone switching stacks.
 

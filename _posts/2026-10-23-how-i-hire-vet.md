@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How I Hire, 3: Vet"
-date: 2026-10-20
+date: 2026-10-23
 tags: [leadership, hiring]
 mermaid: true
 ---
@@ -36,12 +36,12 @@ Frameworks can be learned in weeks. Habits take years. So I ask less "do you kno
 
 At Policy Expert the rubric was pass/fail per competency. That was enough to score strictly, but not to tell a junior who's ready from a senior who isn't. Today's version uses four competencies, scored 1 to 4, with "meets" described differently at each level.
 
-| Competency | Junior meets | Mid meets | Senior meets |
-| --- | --- | --- | --- |
+| Competency                     | Junior meets                                                | Mid meets                                                               | Senior meets                                                           |
+| ------------------------------ | ----------------------------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------------------------------- |
 | Problem-solving & code quality | Working, readable code; finds the constraints with guidance | Clarifies the problem, decomposes it, handles the edge cases they found | Finds hidden constraints unprompted; clean, testable; names trade-offs |
-| Technical judgment | With guidance, explains a choice and the alternative | Explains choices, names an alternative and a failure mode | Ties decisions to scale, maintainability and team skill |
-| Communication & collaboration | Talks through their thinking when prompted; uses feedback | Explains clearly while working; self-documenting code | Structures it for the audience; code a new teammate can pick up |
-| Curiosity & growth | Has taught themselves something and used it | Has learned outside their lane and applied it | Has improved things beyond their role; mentored others |
+| Technical judgment             | With guidance, explains a choice and the alternative        | Explains choices, names an alternative and a failure mode               | Ties decisions to scale, maintainability and team skill                |
+| Communication & collaboration  | Talks through their thinking when prompted; uses feedback   | Explains clearly while working; self-documenting code                   | Structures it for the audience; code a new teammate can pick up        |
+| Curiosity & growth             | Has taught themselves something and used it                 | Has learned outside their lane and applied it                           | Has improved things beyond their role; mentored others                 |
 
 The full rubric, with all four scores at all three levels, is a [download](/assets/how-i-hire/hiring-rubric.md).
 

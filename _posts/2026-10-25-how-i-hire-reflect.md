@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How I Hire, 5: Reflect"
-date: 2026-10-22
+date: 2026-10-25
 tags: [leadership, hiring]
 mermaid: true
 ---

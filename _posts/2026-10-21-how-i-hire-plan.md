@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How I Hire, 1: Plan"
-date: 2026-10-18
+date: 2026-10-21
 tags: [leadership, hiring]
 mermaid: true
 ---
@@ -53,12 +53,12 @@ Skills work the same way. Nobody knows all of Python. A team where everyone is s
 
 **Work back from the start date.** A rough guide; adjust it for your market and the level of the role.
 
-| Stage | Rough time | What stretches it |
-| --- | --- | --- |
-| Source and screen | 3–6 weeks | Senior or niche roles |
-| Vet: take-home, face to face, vote | 1–3 weeks | Panel availability |
-| Offer and notice period | 4–12 weeks | Notice periods of one to three months |
-| Onboard to useful | 4–12 weeks | No onboarding document, no first-week task |
+| Stage                              | Rough time | What stretches it                          |
+| ---------------------------------- | ---------- | ------------------------------------------ |
+| Source and screen                  | 3–6 weeks  | Senior or niche roles                      |
+| Vet: take-home, face to face, vote | 1–3 weeks  | Panel availability                         |
+| Offer and notice period            | 4–12 weeks | Notice periods of one to three months      |
+| Onboard to useful                  | 4–12 weeks | No onboarding document, no first-week task |
 
 Add the rows up and you're at three months on a good run and six on a slow one. That's the window the contractor covers.
 

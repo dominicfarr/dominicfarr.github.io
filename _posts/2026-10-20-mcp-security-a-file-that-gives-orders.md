@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "A file that gives orders: prompt injection through MCP"
-date: 2026-10-22
+date: 2026-10-20
 tags: [agentic, tooling, security]
 mermaid: true
 ---
 
-*Part 2 of the [MCP Security]({% post_url 2026-10-01-mcp-security %}) series: a model in the loop.*
+_Part 2 of the [MCP Security]({% post_url 2026-10-01-mcp-security %}) series: a model in the loop._
 
 ## The question
 
