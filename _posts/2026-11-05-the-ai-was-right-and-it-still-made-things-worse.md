@@ -74,4 +74,4 @@ flowchart LR
   P1["Part 1: The handover between people (this post)"] --> P2["Part 2: Where AI sits in the SDLC, and where the humans go (coming next)"]
 ```
 
-This is the first of two posts. The next looks at where AI sits across the software development lifecycle, and where the humans go.
+This is the first of two posts. The next looks at where AI sits across the software development lifecycle, and where the humans go. [Where AI sits in your SDLC, and where the humans go](/2026/11/06/ai-in-the-sdlc.html)
