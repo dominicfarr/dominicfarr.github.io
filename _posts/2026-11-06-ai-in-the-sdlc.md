@@ -72,4 +72,4 @@ flowchart LR
   P1["Part 1: The handover between people"] --> P2["Part 2: Where AI sits in the SDLC, and where the humans go (this post)"]
 ```
 
-This is the second of two posts. The first, [The AI was right, and it still made things worse](/2026/11/05/the-ai-was-right-and-it-still-made-things-worse.html), looks at the handover between people.
+This is the second of two posts. The first post, [The AI was right, and it still made things worse](/2026/11/05/the-ai-was-right-and-it-still-made-things-worse.html), looks at the handover between people.
