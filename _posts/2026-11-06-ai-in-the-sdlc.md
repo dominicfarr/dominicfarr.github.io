@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Where AI sits in your SDLC, and where the humans go"
-date: 2026-11-05
+date: 2026-11-06
 tags: [ai, sdlc, testing, careers]
 mermaid: true
 ---
